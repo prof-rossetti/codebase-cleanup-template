@@ -23,9 +23,9 @@ pip install -r requirements.txt
 
 ## Configuration
 
-Obtain a premium AlphaVantage API Key [here]().
+Obtain a premium AlphaVantage API Key [here](https://www.alphavantage.co/).
 
-Sign up for a [SendGrid Account](https://sendgrid.com/), verify single sender, then obtain a Sendgrid API Key.
+Sign up for a [SendGrid Account](https://sendgrid.com/), verify single sender, then obtain a Sendgrid API Key. 
 
 
 Set environment variables using a ".env" file approach:
@@ -39,6 +39,8 @@ SENDGRID_API_KEY="SG...."
 
 
 ## Usage
+
+Run the game:
 
 ```sh
 python app/game.py
